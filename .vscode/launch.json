@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:personal-crm}/apps/phone",
+            "name": "Debug phone (apps/phone)",
+            "program": "${workspaceFolder:personal-crm}/apps/phone/.build/debug/phone",
+            "preLaunchTask": "swift: Build Debug phone (apps/phone)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:personal-crm}/apps/phone",
+            "name": "Release phone (apps/phone)",
+            "program": "${workspaceFolder:personal-crm}/apps/phone/.build/release/phone",
+            "preLaunchTask": "swift: Build Release phone (apps/phone)"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+  "swift.path.sourcekit-lsp": "/usr/bin/sourcekit-lsp",
+  "swift.formatter.enable": true
+}
